@@ -1,0 +1,66 @@
+.posterimage{
+    height: 50px;
+    width:50px;
+    border-radius: 50%;
+    object-fit: cover;
+    
+}
+.name{
+    font-weight: bold;
+    font-family: Arial;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.description{
+    font-family: Arial;
+    color:gray;
+    flex: 1;
+    margin-bottom: 10px;
+}
+.infobox{
+    display: flex;
+    flex-direction: row;
+    width: 420px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.videobox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 40px;
+    border-color: rgb(200, 200, 200);
+    border-style: solid;
+    height: 100px;
+    overflow: hidden;
+    border-width: 1px;
+}
+.videoimage{
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+    
+}
+.imagebox{
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+.tweetbox{
+    flex:1;
+}
+.tweetheader{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+}
+.videoinfo{
+    flex: 1;
+}
+.youtube{
+    color: rgb(111, 111, 111);
+    margin-bottom: 3px;
+}
+
+

@@ -1,0 +1,36 @@
+.blockvideo{
+    height: 110px;
+    width:500px;
+    background-color: #faf8f8;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.imagevideo{
+    height: 110px;
+    width: 190px;
+    object-fit: top;
+    display: inline-block;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    margin-right: 10px;
+    
+}
+.infovideo{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 5px;
+
+}
+.videotitle{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-family: arial;
+    font-size: 18px;
+    font-weight: bold;
+}
+.chanelname{
+    margin-top:20px;
+    margin-bottom: 0;
+}
+.videostat{
+    margin-top: 5px;
+}

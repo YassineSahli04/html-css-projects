@@ -1,0 +1,28 @@
+.sidebar{
+    background-color: white;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(228, 228, 228);  
+
+    position:fixed;
+    z-index: -1;
+    left: 0;
+    top:60px;
+    bottom: 0;
+    width:70px
+}
+
+.sidebar_button {
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    
+}
+.sidebar_button img {
+    height: 24px;
+    margin-bottom: 4px;
+  }
+

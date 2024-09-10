@@ -1,0 +1,54 @@
+p{
+  font-family: Roboto;  
+  font-size: 30px;
+  font-weight: 500;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+.location, .destination{
+    display:block;
+    width: 280px;
+    font-size: 15px;
+    padding-top:8px;
+    padding-bottom:8px; 
+    padding-left: 20px;
+    background-color: rgb(232, 230, 230);
+    border-color: rgb(232, 230, 230);
+    border-style: solid;
+    cursor: pointer;
+    transition: opacity 0.15s;
+    margin-bottom: 8px;
+}
+.location:hover, .destination:hover{
+    opacity: 0.6;
+}
+
+button{
+    width:150px;
+    padding-top:10px;
+    padding-bottom: 10px;
+    font-family: Roboto;
+    font-size: 15px;
+    cursor: pointer;
+    transition: opacity 0.15s;
+    margin-top:20px;
+}
+button:hover{
+    opacity: 0.6;
+}
+.request{
+    color:white;
+    background-color: black;
+    border-color: black;
+    border-style: solid;
+}
+.schedule{
+    color:black;
+    background-color: rgb(232, 230, 230);
+    border-color: rgb(232, 230, 230);
+    border-style: solid;
+}
+
+
+
+

@@ -1,0 +1,60 @@
+.firstName{
+    width: 150px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+    font-family: Arial;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    cursor: pointer;
+    border-radius: 8px;
+    border-color: grey;
+    border-style: solid;
+}
+.secondName{
+    width: 150px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+    font-family: Arial;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    cursor: pointer;
+    border-radius: 8px;
+    border-color: grey;
+    border-style: solid;
+    margin-bottom: 10px;
+}
+.email{
+    width:326px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+    font-family: Arial;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    cursor: pointer;
+    border-radius: 8px;
+    border-color: grey;
+    border-style: solid;
+    display: block;
+    margin-bottom: 10px;
+}
+button{
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 135px;
+    padding-right: 135px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    cursor: pointer;
+    border-radius: 8px;
+    color: white;
+    background-color: rgb(32, 87, 150);
+    border-color:rgb(32, 87, 150) ;
+    border-style: solid;
+    transition: opacity 0.15s;
+}
+button:hover{
+    opacity: 0.7;
+}
